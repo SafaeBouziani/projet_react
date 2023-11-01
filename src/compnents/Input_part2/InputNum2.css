@@ -1,0 +1,154 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+   margin-top: 120px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  form div {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .app {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  form{
+      background-color: white;  
+      padding: 0px 60px;
+      border-radius: 10px;
+      width: 800px;
+  }
+  
+  h1{
+      color: rgb(77, 1, 77);
+      position: relative;
+      margin-top: 100px;
+      
+      
+  }
+  
+  button{
+      width: 30%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: #36454F;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+      
+  }
+  .image{
+    color: #36454F;
+    height: 50px;
+
+  }
+   input{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 30px 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+   
+  }
+  input:focus {
+    border: 2px solid #f2796e;
+  }
+  input{
+    border: 0cap;
+  }
+  label{
+    font-size: larger;
+    font-weight: bold;
+
+  }
+  .formInput{
+    line-height: 70px;
+  }
+  
+  
+  
+  textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 30px 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .duree{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 0;
+  }
+  .langue{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  select{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 30px 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  fieldset{
+    padding: 64px;
+    width: 100%;
+    border-radius: 20px;
+    padding-top: 0%;
+  }
+  legend{
+    color: white;
+  }
+  .pre{
+    margin-left: 50px;
+  }
+  .prf{
+    
+    background-color: white;
+  }
+  .prf textarea{
+    
+    background-color: white;
+  }
+  .Inpt{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+   margin-top: 120px;
+  }

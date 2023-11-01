@@ -1,0 +1,42 @@
+.formInput input{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 30px 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+   
+  }
+  input:focus {
+    border: 2px solid #f2796e;
+  }
+  input{
+    border: 0cap;
+  }
+  label{
+    font-size: larger;
+    font-weight: bold;
+
+  }
+  .formInput{
+    line-height: 30px;
+  }
+  .valid_icon{
+    color: green;
+    display: none;
+  }
+  .error_icon{
+    color: red;
+    display: none;
+  
+  }
+  textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 30px 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }

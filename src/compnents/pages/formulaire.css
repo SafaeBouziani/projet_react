@@ -1,0 +1,89 @@
+.Formu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*height: 100vh;*/
+    /*max-width: 400px;*/
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+   margin-top: 120px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  form div {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2D2BD;
+    background-position: center;
+
+  }
+  
+  form{
+      background-color: white;
+      padding: 0px 60px;
+      border-radius: 10px;
+      width: 800px;
+  }
+  
+  h1{
+      color: rgb(77, 1, 77);
+      position: relative;
+      margin-top: 100px;
+      
+      
+  }
+  
+  button{
+      width: 30%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: rebeccapurple;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+      margin-left: 150px;
+  }
+button:hover{
+  box-shadow: 3px 3px  rgb(165, 157, 157) ;
+}
+  #image{
+    display: none;
+   
+  }
+  .image{
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    background-color: #36454F;
+    color: white;
+
+  }
+  .bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .bot label{
+    color: white
+  }
+  
