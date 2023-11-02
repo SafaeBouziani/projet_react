@@ -52,7 +52,6 @@
       height: 50px;
       padding: 10px;
       border: none;
-      background-color: rebeccapurple;
       color: white;
       border-radius: 5px;
       font-weight: bold;
@@ -78,12 +77,19 @@ button:hover{
 
   }
   .bot{
-    display: flex;
+    display:flex;
     flex-direction: row;
-    justify-content: center;
+    align-content: center;
     align-items: center;
+    justify-content: center;
   }
   .bot label{
     color: white
   }
-  
+  .suivant{
+    text-align: center;
+    padding-bottom: 4px;
+    position: relative;
+    left: 20px;
+    top: 4px;
+  }

@@ -41,7 +41,7 @@ const Formulaire = () => {
         <div className="bot">
           <label htmlFor="image" className="image"  >inserer votre image</label>
          <input type="file" id="image" className="image" accept="image/*" ></input>
-          <button>
+          <button className="suivant">
             <NavLink to="/Formulaire_page2"><legend>Suivant</legend></NavLink>
           </button>
         </div>

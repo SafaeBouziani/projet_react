@@ -19,7 +19,7 @@ export const MyCV = () => {
       <CentresInt/>
       <hr></hr>
       <footer>
-        <p className="footer">Édité par: Safae Bouziani<br />
+        <p className="footer">Édité par: Safae Bouziani et Fatima Zahra Boujrad<br />
           dernière mise à jour: 28/10/2023 <br />
           Copyright</p>
       </footer>

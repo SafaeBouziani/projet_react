@@ -32,6 +32,7 @@ const FormPage2 = () => {
             <input type="text" placeholder="par Ex. Lecture"/>
         </div>
         <button className="pre"><NavLink to='/Formulaire_page1'><legend>Précédent</legend></NavLink></button>
+        <button><NavLink to='/'><legend>Enregistrer</legend></NavLink></button>
       </form>
          
           
