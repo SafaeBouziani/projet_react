@@ -9,7 +9,7 @@ function App() {
       <header className='mb-5'>
         <nav className='flex justify-end' >
           <NavLink className='mr-3' style={({isActive}) =>({fontWeight: isActive? 'bold': 'normal'})} to='/'>Ma page personnelle</NavLink>
-          <NavLink className='mr-3' style={({isActive}) =>({fontWeight: isActive? 'bold': 'normal'})} to='/Formulaire_page1/'>Créer mon CV</NavLink>
+          <NavLink className='mr-3' style={({isActive}) =>({fontWeight: isActive? 'bold': 'normal'})} to='/Formulaire_page1/'>Créer votre CV</NavLink>
         </nav> 
       </header>
       <Routes>
