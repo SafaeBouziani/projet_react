@@ -5,11 +5,12 @@ import { Contact } from "../components/contact";
 import { CentresInt } from "../components/centresInt";
 import { CompInfo } from "../components/compInfo";
 import { CompPerso } from "../components/compPerso";
+import REACTLOGO from 'C:/Users/SAFAE/Desktop/my-app/src/images/mypic.jpg'
 export const MyCV = () => {
   return (
     <div>
       <h1 className="intro">Curriculum Vitae</h1>
-      <img src='images/mypic.webp' alt="cvImage" width={500} height={500}/>
+      <img src={REACTLOGO} alt="cvImage" width={500} height={500}/>
       <Intro/>
       <Contact/>
       <Formations/>
